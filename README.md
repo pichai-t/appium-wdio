@@ -102,8 +102,8 @@ By Cucumber tag:
 $ npx wdio run wdio.conf.js --cucumberOpts.tagExpression "@smoke"
 ```
 
-Video: 
-![appium-run-video](https://github.com/pichai-t/appium-wdio/assets/vid/appium-run-video-720p.mov)
+Video of test execution:
+[Download a mov file - 1 min video] (https://github.com/pichai-t/appium-wdio/blob/main/assets/vid/appium-run-video-720p.mov) 
 
 Screenshot once tests finished:
 ![appium-tests-finished](./assets/img/appium-tests-finished.png)
@@ -121,17 +121,29 @@ $ allure open allure-report
 .
 ├── app/                       
 │   └── android/               # iOS application binarie(s) .app
+
 │   └── ios/                   # Android application binarie(s) .apk
+
 ├── features/                   
+
 │   └── android/               # .feature files(BDD) for android tests - later
+
 │   └── ios/                   # .feature files(BDD) for iOS tests
+
 │   └── step-definitions/      # Cucumber step defs
+
 │   └── pageobjects/           # Page Object Models classes
+
 ├── allure-results/            # Raw test output
+
 ├── allure-report/             # Generated HTML reports
+
 ├── wdio.conf.js               # WebdriverIO configurations
+
 ├── package.json               # NodeJS's package configurations
+
 └── README.md
+
 
 ## 11 Example of Feature file
 
