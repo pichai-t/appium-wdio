@@ -1,0 +1,8 @@
+Feature: Run the first Practice test
+
+  Scenario Outline: As a user, I can log into the secure area
+
+    Given I am on the main screen
+    When I click on Practice button
+    And I select answer A
+
